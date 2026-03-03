@@ -12,3 +12,8 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+button{
+    color: white;
+    padding: 5px;
+}
