@@ -4,3 +4,10 @@
     margin-right: 5px;
     margin-bottom: 5px;
 }
+
+.hide-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   /* কয় লাইন দেখাবে */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
