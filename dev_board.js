@@ -1,4 +1,4 @@
-document.getElementById('all-messege').style.display = "none";
+document.getElementById('side-bur-messege-1').style.display = "none";
 
 document.getElementById('cmplt-1-btn')
     .addEventListener('click', function () {
@@ -30,6 +30,7 @@ document.getElementById('cmplt-1-btn')
 
 
     });
+    
 
 // button 2
 
