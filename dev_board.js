@@ -14,14 +14,14 @@ document.getElementById('cmplt-1-btn')
         if (convertedPointNumber5 > 0) {
             const sum = convertedPointNumber5 -= 1;
             const sum2 = convertedPointNumber23 += 1;
-            document.getElementById('point-number-5', sum);
-            document.getElementById('point-number-23', sum2);
+            document.getElementById('point-number-5', sum).innerText;
+            document.getElementById('point-number-23', sum2).innerText;
         }
 
-        else{
+        else {
             alert('not count your number');
         }
 
-    
 
-    })
+
+    });
