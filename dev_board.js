@@ -1,4 +1,4 @@
-
+let allMessege = 
 
 document.getElementById('cmplt-1-btn')
     .addEventListener('click', function () {
