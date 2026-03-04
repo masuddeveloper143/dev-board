@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 document.getElementById('side-bur-messege-1').style.display = "none";
 
 document.getElementById('cmplt-1-btn')
@@ -30,9 +41,10 @@ document.getElementById('cmplt-1-btn')
 
 
     });
-    
+
 
 // button 2
+document.getElementById('side-bur-messege-2').style.display = "none";
 
 document.getElementById('cmplt-2-btn')
     .addEventListener('click', function () {
@@ -65,13 +77,14 @@ document.getElementById('cmplt-2-btn')
     });
 
 // button 3
+document.getElementById('side-bur-messege-3').style.display = "none";
 
 document.getElementById('cmplt-3-btn')
     .addEventListener('click', function () {
         alert("hello world")
         const btnEl = document.getElementById('cmplt-3-btn');
 
-        
+        document.getElementById('side-bur-messege-3').style.display = "block";
 
         const pointNumber5 = document.getElementById('point-number-5').innerText;
         const pointNumber23 = document.getElementById('point-number-23').innerText;
@@ -97,6 +110,8 @@ document.getElementById('cmplt-3-btn')
     });
 
 // button 4
+document.getElementById('side-bur-messege-4').style.display = "none";
+
 
 document.getElementById('cmplt-4-btn')
     .addEventListener('click', function () {
@@ -129,6 +144,9 @@ document.getElementById('cmplt-4-btn')
     });
 
 // button 5
+document.getElementById('side-bur-messege-5').style.display = "none";
+
+
 document.getElementById('cmplt-5-btn')
     .addEventListener('click', function () {
         alert("hello world")
@@ -159,7 +177,10 @@ document.getElementById('cmplt-5-btn')
 
     });
 
-    // button 6
+// button 6
+document.getElementById('side-bur-messege-6').style.display = "none";
+
+
 document.getElementById('cmplt-6-btn')
     .addEventListener('click', function () {
         alert("hello world")
@@ -189,5 +210,15 @@ document.getElementById('cmplt-6-btn')
 
 
     });
+
+
+// clear hestory button 
+
+document.getElementById('clear-hestory')
+    .addEventListener('click', function () {
+        document.getElementById('all-messege').style.display = "none"
+        alert("clear all hestory");
+    })
+
 
 
