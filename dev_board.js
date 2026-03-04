@@ -1,11 +1,11 @@
-let allMessege = 
+document.getElementById('all-messege').style.display = "none";
 
 document.getElementById('cmplt-1-btn')
     .addEventListener('click', function () {
         alert("hello world")
         const btnEl = document.getElementById('cmplt-1-btn');
 
-
+        document.getElementById('all-messege').style.display = "block";
         const pointNumber5 = document.getElementById('point-number-5').innerText;
         const pointNumber23 = document.getElementById('point-number-23').innerText;
         // console.log(typeof pointNumber23);
@@ -29,9 +29,9 @@ document.getElementById('cmplt-1-btn')
 
     });
 
-    // button 2
+// button 2
 
-    document.getElementById('cmplt-2-btn')
+document.getElementById('cmplt-2-btn')
     .addEventListener('click', function () {
         alert("hello world")
         const btnEl = document.getElementById('cmplt-2-btn');
