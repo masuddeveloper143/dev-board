@@ -18,6 +18,7 @@ document.getElementById('cmplt-1-btn')
             document.getElementById('point-number-23').innerText = sum2;
 
             cmpLt1Btn.innerText = "Completed";
+            btn1.classList.add("completed");
             cmpLt1Btn.disabled = true;
         }
         else {
