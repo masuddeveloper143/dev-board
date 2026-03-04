@@ -10,6 +10,6 @@ button{
 
 }
 button:disabled{
-    border-color: grey;
+    background-color: grey;
     cursor: not-allowed;
 }

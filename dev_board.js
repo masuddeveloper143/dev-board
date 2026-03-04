@@ -4,7 +4,7 @@ document.getElementById('button')
 btnEl.addEventListener('click', () => {
     alert("hello world")
 
-    btnEl.disabled = true;
+
 
     const pointNumber5 = document.getElementById('point-number-5').innerText;
     const pointNumber23 = document.getElementById('point-number-23').innerText;
@@ -19,8 +19,9 @@ btnEl.addEventListener('click', () => {
         const sum2 = convertedPointNumber23 + 1;
         document.getElementById('point-number-5').innerText = sum;
         document.getElementById('point-number-23').innerText = sum2;
-
+        btnEl.disabled = true;
     }
+
     else {
         alert('not count your number');
     }
