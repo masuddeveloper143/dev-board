@@ -1,7 +1,7 @@
 document.getElementById('cmplt-1-btn')
     .addEventListener('click', function () {
 
-
+        let cmpLt1Btn = document.getElementById('cmplt-1-btn');
 
         const pointNumber5 = document.getElementById('point-number-5').innerText;
         const pointNumber23 = document.getElementById('point-number-23').innerText;
@@ -16,11 +16,16 @@ document.getElementById('cmplt-1-btn')
             const sum2 = convertedPointNumber23 + 1;
             document.getElementById('point-number-5').innerText = sum;
             document.getElementById('point-number-23').innerText = sum2;
-        }
 
+            cmpLt1Btn.innerText = "Completed";
+            cmpLt1Btn.disabled = true;
+        }
         else {
             alert('not count your number');
         }
+
+
+
 
 
 
