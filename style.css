@@ -16,4 +16,8 @@
 button{
     color: white;
     padding: 5px;
+      background-color: #e0e3ff;
+      color: #9aa3ff;
+      cursor: not-allowed;
+    
 }
