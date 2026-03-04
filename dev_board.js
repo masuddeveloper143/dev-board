@@ -5,7 +5,9 @@ document.getElementById('cmplt-1-btn')
         alert("hello world")
         const btnEl = document.getElementById('cmplt-1-btn');
 
-        document.getElementById('all-messege').style.display = "block";
+        document.getElementById('').style.display = "block";
+
+
         const pointNumber5 = document.getElementById('point-number-5').innerText;
         const pointNumber23 = document.getElementById('point-number-23').innerText;
         // console.log(typeof pointNumber23);
