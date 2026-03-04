@@ -12,10 +12,10 @@ document.getElementById('cmplt-1-btn')
         const convertedPointNumber23 = parseInt(pointNumber23);
 
         if (convertedPointNumber5 > 0) {
-            const sum = convertedPointNumber5 -= 1;
-            const sum2 = convertedPointNumber23 += 1;
-            document.getElementById('point-number-5', sum).innerText;
-            document.getElementById('point-number-23', sum2).innerText;
+            const sum = convertedPointNumber5 - 1;
+            const sum2 = convertedPointNumber23 + 1;
+            document.getElementById('point-number-5').innerText = sum;
+            document.getElementById('point-number-23').innerText = sum2;
         }
 
         else {
