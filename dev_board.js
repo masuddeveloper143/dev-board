@@ -5,7 +5,7 @@ document.getElementById('cmplt-1-btn')
         alert("hello world")
         const btnEl = document.getElementById('cmplt-1-btn');
 
-        document.getElementById('').style.display = "block";
+        document.getElementById('side-bur-messege-1').style.display = "block";
 
 
         const pointNumber5 = document.getElementById('point-number-5').innerText;
@@ -38,6 +38,7 @@ document.getElementById('cmplt-2-btn')
         alert("hello world")
         const btnEl = document.getElementById('cmplt-2-btn');
 
+        document.getElementById('side-bur-messege-2').style.display = "block";
 
         const pointNumber5 = document.getElementById('point-number-5').innerText;
         const pointNumber23 = document.getElementById('point-number-23').innerText;
@@ -61,4 +62,131 @@ document.getElementById('cmplt-2-btn')
 
 
     });
+
+// button 3
+
+document.getElementById('cmplt-3-btn')
+    .addEventListener('click', function () {
+        alert("hello world")
+        const btnEl = document.getElementById('cmplt-3-btn');
+
+        
+
+        const pointNumber5 = document.getElementById('point-number-5').innerText;
+        const pointNumber23 = document.getElementById('point-number-23').innerText;
+        // console.log(typeof pointNumber23);
+
+        // converted string to number 
+        const convertedPointNumber5 = parseInt(pointNumber5);
+        const convertedPointNumber23 = parseInt(pointNumber23);
+
+        if (convertedPointNumber5 > 0) {
+            const sum = convertedPointNumber5 - 1;
+            const sum2 = convertedPointNumber23 + 1;
+            document.getElementById('point-number-5').innerText = sum;
+            document.getElementById('point-number-23').innerText = sum2;
+            btnEl.disabled = true;
+        }
+
+        else {
+            alert('not count your number');
+        }
+
+
+    });
+
+// button 4
+
+document.getElementById('cmplt-4-btn')
+    .addEventListener('click', function () {
+        alert("hello world")
+        const btnEl = document.getElementById('cmplt-4-btn');
+
+        document.getElementById('side-bur-messege-4').style.display = "block";
+
+        const pointNumber5 = document.getElementById('point-number-5').innerText;
+        const pointNumber23 = document.getElementById('point-number-23').innerText;
+        // console.log(typeof pointNumber23);
+
+        // converted string to number 
+        const convertedPointNumber5 = parseInt(pointNumber5);
+        const convertedPointNumber23 = parseInt(pointNumber23);
+
+        if (convertedPointNumber5 > 0) {
+            const sum = convertedPointNumber5 - 1;
+            const sum2 = convertedPointNumber23 + 1;
+            document.getElementById('point-number-5').innerText = sum;
+            document.getElementById('point-number-23').innerText = sum2;
+            btnEl.disabled = true;
+        }
+
+        else {
+            alert('not count your number');
+        }
+
+
+    });
+
+// button 5
+document.getElementById('cmplt-5-btn')
+    .addEventListener('click', function () {
+        alert("hello world")
+        const btnEl = document.getElementById('cmplt-5-btn');
+
+        document.getElementById('side-bur-messege-5').style.display = "block";
+
+        const pointNumber5 = document.getElementById('point-number-5').innerText;
+        const pointNumber23 = document.getElementById('point-number-23').innerText;
+        // console.log(typeof pointNumber23);
+
+        // converted string to number 
+        const convertedPointNumber5 = parseInt(pointNumber5);
+        const convertedPointNumber23 = parseInt(pointNumber23);
+
+        if (convertedPointNumber5 > 0) {
+            const sum = convertedPointNumber5 - 1;
+            const sum2 = convertedPointNumber23 + 1;
+            document.getElementById('point-number-5').innerText = sum;
+            document.getElementById('point-number-23').innerText = sum2;
+            btnEl.disabled = true;
+        }
+
+        else {
+            alert('not count your number');
+        }
+
+
+    });
+
+    // button 6
+document.getElementById('cmplt-6-btn')
+    .addEventListener('click', function () {
+        alert("hello world")
+        const btnEl = document.getElementById('cmplt-6-btn');
+
+        document.getElementById('side-bur-messege-6').style.display = "block";
+
+        const pointNumber5 = document.getElementById('point-number-5').innerText;
+        const pointNumber23 = document.getElementById('point-number-23').innerText;
+        // console.log(typeof pointNumber23);
+
+        // converted string to number 
+        const convertedPointNumber5 = parseInt(pointNumber5);
+        const convertedPointNumber23 = parseInt(pointNumber23);
+
+        if (convertedPointNumber5 > 0) {
+            const sum = convertedPointNumber5 - 1;
+            const sum2 = convertedPointNumber23 + 1;
+            document.getElementById('point-number-5').innerText = sum;
+            document.getElementById('point-number-23').innerText = sum2;
+            btnEl.disabled = true;
+        }
+
+        else {
+            alert('not count your number');
+        }
+
+
+    });
+
 
