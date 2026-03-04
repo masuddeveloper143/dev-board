@@ -5,15 +5,11 @@
     margin-bottom: 5px;
 }
 
-.hide-text {
-    display: inline-block;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
 button{
     color: white;
-    padding: 5px;
+
+}
+button:disabled{
+    border-color: grey;
+    cursor: not-allowed;
 }

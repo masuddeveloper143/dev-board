@@ -1,7 +1,7 @@
 document.getElementById('cmplt-1-btn')
     .addEventListener('click', function () {
 
-        let cmpLt1Btn = this;
+        
 
         const pointNumber5 = document.getElementById('point-number-5').innerText;
         const pointNumber23 = document.getElementById('point-number-23').innerText;
@@ -17,8 +17,6 @@ document.getElementById('cmplt-1-btn')
             document.getElementById('point-number-5').innerText = sum;
             document.getElementById('point-number-23').innerText = sum2;
 
-            
-            cmpLt1Btn.disabled = true;
         }
         else {
             alert('not count your number');
